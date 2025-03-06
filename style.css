@@ -1,0 +1,104 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/889/844/non_2x/quiz-set-in-doodle-style-illustration-icon-question-symbol-for-print-and-design-quiz-and-exam-concept-isolated-element-on-black-background-collection-of-sign-for-school-and-event-vector.jpg");
+
+}
+
+#quizForm {
+    background-color: white;
+    border: 2px solid rgb(219, 205, 205);
+    border-radius: 6px;
+    padding: 30px 5%;
+    box-shadow: 0px 2px 6px 8px rgb(87, 86, 86);
+    width: 100%;
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+    #quizForm {
+        padding: 20px 2%;
+    }
+}
+
+
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    padding: 20px;
+}
+/* .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    padding: 20px;
+} */
+ 
+/* Add this CSS to your style.css file */
+.question label:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+   
+}
+
+.headings{
+   margin-bottom: 60px;
+}
+.headings span{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+
+.question{
+    font-size: larger;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.question p{
+  font-weight: 700;
+  
+}
+
+
+.question label {
+    display: flex; /* Align radio button and text on the same line */
+    align-items: center; /* Ensure vertical alignment */
+    margin-bottom: 8px; /* Space between options */
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+
+
+.question input{
+    cursor: pointer;
+    margin-right: 10px;
+    
+  }
+
+button {
+    color: beige;
+    background-color: green;
+    width: 80%;
+    max-width: 300px;
+    height: 50px;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(140, 215, 140);
+    color: rgb(19, 19, 15);
+}
+span{
+    font-size: 20px;
+}
